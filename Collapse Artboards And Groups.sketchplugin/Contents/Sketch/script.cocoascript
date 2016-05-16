@@ -1,0 +1,5 @@
+var onRun = function(context) {
+  var action = context.document.actionsController().actionWithName("MSCollapseAllGroupsAction")
+
+action.doPerformAction(0)
+};

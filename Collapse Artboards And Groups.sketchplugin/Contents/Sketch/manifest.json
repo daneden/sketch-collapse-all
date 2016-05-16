@@ -1,0 +1,26 @@
+{
+  "author" : "Daniel Eden",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "name" : "Collapse Artboards And Groups",
+      "shortcut": "cmd e",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "collapseArtboardsAndGroups"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "collapseArtboardsAndGroups"
+    ],
+    "isRoot": true,
+    "title" : "Collapse Artboards And Groups"
+  },
+  "identifier" : "me.daneden.sketch.collapse-all",
+  "version" : "1.0",
+  "description" : "Collapse artboards and groups in Sketch",
+  "authorEmail" : "dan.eden@me.com",
+  "name" : "Collapse Artboards And Groups"
+}
