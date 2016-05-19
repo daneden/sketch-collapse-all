@@ -1,5 +1,9 @@
 var onRun = function(context) {
-  var action = context.document.actionsController().actionWithName("MSCollapseAllGroupsAction")
+  var action = context.document.actionsController().actionWithID("MSCollapseAllGroupsAction")
 
-action.doPerformAction(0)
+  if(action.validate()) {
+    action.doPerformAction(nil)
+  } else {
+    log("Failed to perform MSCollapseAllGroupsAction: invalid action ID.")
+  }
 };
