@@ -4,7 +4,7 @@ var onRun = function(context) {
 
   doc.currentPage().deselectAllLayers()
 
-  var action = doc.actionsController().actionWithID("MSCollapseAllGroupsAction")
+  var action = doc.actionsController().actionForID("MSCollapseAllGroupsAction")
 
   if(action.validate()) {
     action.doPerformAction(nil)
