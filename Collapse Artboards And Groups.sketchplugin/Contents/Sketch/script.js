@@ -7,7 +7,7 @@ var onRun = function(context) {
   var action = doc.actionsController().actionForID("MSCollapseAllGroupsAction")
 
   if(action.validate()) {
-    action.doPerformAction(nil)
+    action.doPerformAction(null)
     currentArtboard.select_byExpandingSelection(true, false)
   } else {
     log("Failed to perform MSCollapseAllGroupsAction: invalid action ID.")
