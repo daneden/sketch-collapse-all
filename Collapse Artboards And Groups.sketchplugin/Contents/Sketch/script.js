@@ -2,7 +2,8 @@ var onRun = function(context) {
   var doc = context.document
   var currentArtboard = doc.findCurrentArtboardGroup()
 
-  doc.currentPage().deselectAllLayers()
+  //deselect all layers
+  context.api().selectedDocument.selectedPage.selectedLayers.clear()
 
   var action = doc.actionsController().actionForID("MSCollapseAllGroupsAction")
 
