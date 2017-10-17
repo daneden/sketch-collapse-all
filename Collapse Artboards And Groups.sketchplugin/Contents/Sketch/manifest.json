@@ -4,7 +4,7 @@
     {
       "script" : "script.js",
       "name" : "Collapse Artboards And Groups",
-      "shortcut": "cmd e",
+      "shortcut": "cmd ctrl c",
       "handlers" : {
         "run" : "onRun"
       },
