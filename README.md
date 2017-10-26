@@ -2,7 +2,7 @@
 Add a keyboard shortcut to the "Collapse Artboards And Groups" function in
 Sketch.
 
-Use `⌘E` to collapse all the current document's Artboards and Groups.
+Use `⌘ ctrl c` to collapse all the current document's Artboards and Groups.
 
 ## Installation
 1. [Download the plugin repository](https://github.com/daneden/sketch-collapse-all/archive/master.zip)
